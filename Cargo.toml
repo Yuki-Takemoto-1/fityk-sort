@@ -1,0 +1,12 @@
+[package]
+name = "fityk-sort-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+polars = { version = "0.41.3", features = ["lazy"]}
+rust_xlsxwriter = { version = "0.71.0", features = ["polars"] }
+serde = { version="1.0.204", features=["derive"] }
+toml = "0.8.15"
+

@@ -1,8 +1,10 @@
 [settings]
 # datファイル作成時に選んだコマンド(順番も大事)
 columns = ["x", "y", "all component functions", "model(sum)", "residuals", "weighted residuals"]
+
 # 読み込むファイル名の配列
 filenames = ["0mm", "0.5mm", "1.0mm", "1.5mm"]
+
 
 [options]
 # フォルダパスを指定 read:読み込みフォルダ名, write:書き込みフォルダ名.
